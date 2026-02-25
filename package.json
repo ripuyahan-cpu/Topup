@@ -1,23 +1,40 @@
 {
-  "name": "gaming-topup-bot",
-  "version": "1.0.0",
-  "description": "A Telegram bot for Free Fire, PUBG, and COC top-up services",
+  "name": "auto-topup-telegram-bot",
+  "version": "2.0.0",
+  "description": "একটি সম্পূর্ণ স্বয়ংক্রিয় টেলিগ্রাম বট যা TON Blockchain, CryptoBot ও AI ব্যবহার করে গেম টপ-আপ সার্ভিস প্রদান করে",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "telegram",
-    "bot",
+    "telegram-bot",
     "topup",
+    "free-fire",
+    "pubg",
     "gaming",
-    "freefire",
-    "pubg"
+    "automation",
+    "ton-blockchain",
+    "crypto",
+    "ai",
+    "nodejs"
   ],
   "author": "Your Name",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
-    "node-telegram-bot-api": "^0.64.0"
+    "@tonconnect/sdk": "^3.0.0",
+    "axios": "^1.7.9",
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.5",
+    "node-telegram-bot-api": "^0.66.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
