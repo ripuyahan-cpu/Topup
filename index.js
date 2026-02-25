@@ -1,7 +1,7 @@
 const TelegramBot = require('node-telegram-bot-api');
 
 // এখানে আপনার BotFather থেকে পাওয়া টোকেনটি বসান
-const token = '8661419027:AAERHAZ_Pc2Rxt-2xU2RX06WsILCZvRz4Ac';
+const token = '8776366474:AAH-pvKRKp0r4ycJb3h5JmnAEOCLw0yTIz8';
 const bot = new TelegramBot(token, { polling: true });
 
 // গেম লিস্ট এবং প্রাইস (এখানে আপনি আপনার পছন্দমতো প্রাইস আপডেট করতে পারবেন)
